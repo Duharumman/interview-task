@@ -21,7 +21,7 @@ public interface Normalizer {
      * <code>colToNormalize</code>, then generate the result file with additional scored column to
      * <code>destPath</code>.
      *
-     * @param csvPath          path of CSV file to read
+     * @param csvPath          path of CSV file td ito read
      * @param destPath         path to which the scaled CSV file should be written
      * @param colToNormalize the name of the column to normalize
      * @return

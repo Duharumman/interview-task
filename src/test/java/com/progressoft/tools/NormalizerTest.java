@@ -20,11 +20,11 @@ public class NormalizerTest {
     @BeforeEach
     public void beforeEach() {
         // TODO override it here
-        normalizer = null;
+        normalizer = new NormalizerImp();
     }
 
     public Normalizer normalizer() {
-        if (normalizer == null)
+      if (normalizer == null)
             Assertions.fail("normalizer is not initialized");
         return normalizer;
     }
